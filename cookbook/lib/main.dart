@@ -10,7 +10,8 @@ import 'package:flutter/material.dart';
 // import 'dismissableDemo.dart';
 // import './Nav/firstScreen.dart';
 // import './PagePassData/todoListPage.dart';
-import './PagePassDataBack/homeScreen.dart';
+// import './PagePassDataBack/homeScreen.dart';
+import './Json2Model/jsonHome.dart';
 
 void main() {
   runApp(new MyApp());
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
         // body: DismissableDemo(),
         // body: FirstScreen(),
         // body: TodoListPage(),
-        body: HomeScreen(),
+        // body: HomeScreen(),
+        body: JsonHomeDemo(),
       ),
     );
   }
